@@ -28,5 +28,6 @@ public class ExecutorPoolServiceSample {
         executorService.execute(() -> System.out.println("This code executes in a new thread from pool " + Thread.currentThread().getName()));
 
         System.out.println("ExecutorPoolServiceSample.main thread exiting: " + Thread.currentThread().getName());
+        executorService.shutdown(); // don't forget this or pool will hand and never release.
     }
 }
