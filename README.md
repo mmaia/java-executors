@@ -1,8 +1,8 @@
 # java-executors
 
-Project with notes and code studying java executors - java 8 with focus on Spring implementation.
+Project with notes and code studying java executors - java 8
 
-The Spring AsyncTaskExecutor
+Planning to also add Spring implementation samples like the Spring AsyncTaskExecutor
 
 ## relevant references
 
